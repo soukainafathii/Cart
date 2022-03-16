@@ -16,6 +16,7 @@ public class CartTest {
 
     private final String productCode = randomUUID().toString();
 
+
     @Test
     public void empty() {
         Cart c = new Cart();
